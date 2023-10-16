@@ -64,3 +64,13 @@ footer hr
 {
     border-top: 5px solid black;
 }
+.WorkButton
+{
+    border-radius: 50px;
+    background-color:darkcyan;
+    border:thin 2px black;
+}
+button:hover
+{
+    background-color: cadetblue;
+}
