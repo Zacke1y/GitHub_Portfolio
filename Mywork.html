@@ -20,12 +20,24 @@
     </nav>
     <div class="WorkDiv">
         <hr>
-            <button onclick="Open()">Click me</button>
-            <div class="WorkOpenDiv">
+            <button type="button" onclick="Open()">Click me</button>
+            <div class="WorkOpenDiv" id="OpenDiv">
                 <p>Im open!</p>
             </div>
             <hr>
         <hr>
     </div>
+    <script>
+        var active = false;
+        function Open(){
+            if(!active){
+                document.getElementById("OpenDiv").style.display = "Inline";
+                active = true;
+            } else {
+                document.getElementById("OpenDiv").style.display = "none";
+                active = false;
+            }
+        }
+    </script>
 </body>
 </html>

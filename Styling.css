@@ -38,7 +38,12 @@ nav a
 {
     background-color: cadetblue;
 }
+.WorkDiv button
+{
+    text-align: center;
+}
 .WorkOpenDiv
 {
     display: none;
+    text-align: center;
 }
