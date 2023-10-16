@@ -38,3 +38,7 @@ nav a
 {
     background-color: cadetblue;
 }
+.WorkOpenDiv
+{
+    display: none;
+}
