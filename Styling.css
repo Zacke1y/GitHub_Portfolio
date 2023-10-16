@@ -45,3 +45,22 @@ nav a
     display: none;
     text-align: center;
 }
+.AboutmeDiv
+{
+    text-align: center;
+    background-color: cadetblue;
+
+}
+hr
+{
+    border-top: 10px solid black;
+}
+footer
+{
+    background-color: cadetblue;
+    text-align: center;
+}
+footer hr
+{
+    border-top: 5px solid black;
+}
