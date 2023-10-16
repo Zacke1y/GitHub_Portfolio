@@ -1,0 +1,40 @@
+body
+{
+    background-color: black;
+}
+header
+{
+    background-color: cadetblue;
+    text-align: center;
+    color: black;
+}
+header hr
+{
+    color: black;
+    height: 100px;
+}
+header h1
+{
+    color: black;
+    font-size: 70px;
+}
+nav
+{
+    text-align: center;
+    background-color: slategrey;
+}
+nav a
+{
+    font-size: 20px;
+    text-decoration: none;
+    color: cornsilk;
+    margin: 10px;
+}
+.WorkDiv
+{
+    background-color: cadetblue;
+}
+.mainDiv
+{
+    background-color: cadetblue;
+}
