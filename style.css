@@ -1,0 +1,247 @@
+@import url('https://fonts.googleapis.com/css2?family=Fjalla+One&family=PT+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Fjalla+One&family=PT+Sans&display=swap');
+
+html,body{margin:0;padding:0;overflow: hidden;}
+h1,p{margin:0 0 1em}
+
+
+@keyframes pulsing
+{
+    0% {font-size: 20px;}
+    50% {font-size: 30px;}
+    100% {font-size: 20px;}
+}
+
+@keyframes pulsingP
+{
+    0% {font-size: 15px;}
+    50% {font-size: 20px;}
+    100% {font-size: 15px;}
+}
+
+#Sky{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: 0;
+    opacity: 30%;
+    filter: brightness(1.6);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Fjalla One', sans-serif;
+    font-family: 'PT Sans', sans-serif;
+}
+
+body {
+    min-height: 100vh;
+    background: linear-gradient(#2b1055, #182541);
+}
+
+.MainText
+{
+    filter: brightness(1.5);
+    z-index: 1;
+    color: white;
+    text-align: center;
+    min-width: 10vw;
+    max-width: 50vw;
+    position: absolute;
+    top: 40vh;
+    right: 50vw;
+    transform: translateX(50%) translateY(-50%);
+    border-radius: 20px;
+}
+
+.MainText h3
+{
+    opacity: 100%;
+    letter-spacing: 7px;
+    margin-top: 20px;
+}
+
+.MainText h1, .MainText h2,.MainText a
+{
+    opacity: 100%;
+    letter-spacing: 15px;
+}
+
+.MainText p
+{
+    font-size: 15px;
+    letter-spacing: 5px;
+    animation-iteration-count: infinite;
+}
+
+.MainText a
+{
+    font-size: 20px;
+    letter-spacing: 5px;
+    text-decoration: none;
+    color: white;
+    margin-top: 20px;
+    padding: 10px;
+    text-align: center;
+}
+
+.MainText a:hover
+{
+    font-size: 20px;
+    letter-spacing: 5px;
+    text-decoration: none;
+    color: #2b1055;
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #7596de62;
+    border-radius: 20px;
+    text-align: center;
+}
+
+.navMenu {
+    filter: brightness(1.2);
+    text-align: center;
+    min-width: 10vw;
+    max-width: 50vw;
+    top: 75vh;
+    right: 50vw;
+    transform: translateY(-50%) translateX(50%);
+    z-index: 5;
+    position: absolute;
+}
+
+.navMenu ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.navMenu ul li {
+    list-style: none;
+    margin-left: 10px;
+}
+
+.navMenu ul li a {
+    animation: fadeOut .5s;
+    text-decoration: none;
+    padding: 0px 10px;
+    color: white;
+    font-size: 25px;
+    border-radius: 20px;
+}
+
+@keyframes fadeIn
+{
+    0% {background-color: rgba(999, 999, 999, 0); color: white;}
+    100% {background-color: #7596de62; color: #2b1055;}
+}
+
+@keyframes fadeOut
+{
+    0% {background-color: #7596de62; color: #2b1055;}
+    100% {background-color: rgba(999, 999, 999, 0); color: white;}
+}
+
+.navMenu ul li a:hover
+{
+    animation: fadeIn .5s;
+    border-radius: 20px;
+    background-color: #7596de62;
+    color: #2b1055;
+}
+
+
+#MoonH
+{
+    position: absolute;
+    width: 12vw;
+    margin-top: clamp(10vh,10vh,10vh);
+    margin-left: clamp(10vw,80vw,10vw);
+    opacity: 70%;
+    z-index: 2;
+}
+
+#MoonW
+{
+    position: absolute;
+    width: 12vw;
+    margin-top: clamp(5vh,5vh,5vh);
+    margin-left: clamp(45vw,55vw,85vw);
+    opacity: 60%;
+    z-index: 2;
+}
+
+#MoonA
+{
+    position: absolute;
+    width: 12vw;
+    margin-top: clamp(5vh,5vh,5vh);
+    margin-left: clamp(25vw,35vw,85vw);
+    opacity: 60%;
+    z-index: 2;
+}
+
+#MoonC
+{
+    position: absolute;
+    width: 12vw;
+    margin-top: clamp(10vh,10vh,10vh);
+    margin-left: clamp(25vw,80vw,90vw);
+    opacity: 70%;
+    z-index: 2;
+}
+
+#Cliff
+{
+    position: absolute;
+    min-width: 900px;
+    min-height: 600px;
+    top: 0vh;
+    transform: translateY(50%);
+    z-index: 3;
+    filter: brightness(.5);
+    opacity: 100%;
+}
+
+#Cliff2
+{
+    position: absolute;
+    min-width: 900px;
+    min-height: 550px;
+    top: 55vmin;
+    right: 0vmin;
+    transform: scaleX(-1);
+    z-index: 3;
+    filter: brightness(.5);
+}
+
+#Ocean
+{
+    position: absolute;
+    min-width: 100vw;
+    height: 80vh;
+    margin-top: 20vh;
+    z-index: 0;
+    opacity: 35%;
+}
+
+.selector {
+    -webkit-user-drag: none;
+    user-select: none;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+}
+
+.Title
+{
+    opacity: 100%;
+    letter-spacing: 15px;
+    position: absolute; 
+    color: white;
+    top: 90vh;
+    right: 50vw;
+    transform: translateX(50%) translateY(-50%);
+}
